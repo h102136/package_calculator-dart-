@@ -1,39 +1,68 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Calculator by Python
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+A calculator with limited operation (+, -, *, /, (, ) only) by Python.
+Allow users to input an expression (ex: 4 + 5 / 9 * (7 + 5)) to output a result.
+Unit test cases (calss and function) and coverage reports included
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+## Table of Contents
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
 
-## Features
+## Installation
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+### Prerequisites
 
-## Getting started
+- Git https://github.com/git-guides/install-git
+- Flutter https://docs.flutter.dev/get-started/install
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### Steps
 
+Clone the repository:<br>
+    
+- Open CMD or PowerShell and type the command below:<br><br>
+```sh
+git clone https://github.com/h102136/package_calculator_dart
+```
+```sh
+cd package_calculator_dart/bin
+```
+<br>
+
+- The path setting of the program located is completed.
+    
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Run the program:<br><br>
 
-```dart
-const like = 'sample';
+- Type the command below on the current path:<br>
+```sh
+dart run main,dart
 ```
+<br>
 
-## Additional information
+- The program will show the info below:<br>
+```sh
+Enter an expression ex:(7+8.5)*5-9/3 (+, -, *, / only) or Q for quit: 
+```
+<br>
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+- Then you are good to input a expression and get a result.
+
+## Tests
+
+### Running Tests
+
+- Set the path to "tests" folder, assuming you are currently in "calculator" folder<br>
+```sh
+cd ../test
+```
+<br>
+
+- Run the test:<br>
+```sh
+dart run calculator_test.dart
+dart run input_handler_test.dart
+```
+<br>
