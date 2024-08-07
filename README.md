@@ -1,8 +1,6 @@
-# Calculator by Python
-
-A calculator with limited operation (+, -, *, /, (, ) only) by Python.
-Allow users to input an expression (ex: 4 + 5 / 9 * (7 + 5)) to output a result.
-Unit test cases (calss and function) and coverage reports included
+# calculator package
+- A calculator with limited operation (+, -, *, /, (, ) only).
+- Unit test cases including
 
 ## Table of Contents
 
@@ -24,9 +22,8 @@ Clone the repository:<br>
 - Open CMD or PowerShell and type the command below:<br><br>
 ```sh
 git clone https://github.com/h102136/package_calculator_dart
-```
 ```sh
-cd package_calculator_dart/bin
+cd package_calculator_dart
 ```
 <br>
 
@@ -36,15 +33,16 @@ cd package_calculator_dart/bin
 
 Run the program:<br><br>
 
-- Type the command below on the current path:<br>
+- Type the command below on the current path:
+<br>
 ```sh
-dart run main,dart
+cd bin
 ```
 <br>
 
-- The program will show the info below:<br>
+- Run the program:
 ```sh
-Enter an expression ex:(7+8.5)*5-9/3 (+, -, *, / only) or Q for quit: 
+dart run main.dart
 ```
 <br>
 
@@ -54,13 +52,14 @@ Enter an expression ex:(7+8.5)*5-9/3 (+, -, *, / only) or Q for quit:
 
 ### Running Tests
 
-- Set the path to "tests" folder, assuming you are currently in "calculator" folder<br>
+- Type the command below on the current path:
+<br>
 ```sh
 cd ../test
 ```
 <br>
 
-- Run the test:<br>
+- Run the test:
 ```sh
 dart run calculator_test.dart
 dart run input_handler_test.dart
