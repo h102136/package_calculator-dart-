@@ -5,18 +5,18 @@ version: 1.0.0
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
-  flutter: ">=1.17.0"
+  # flutter: ">=1.17.0"
 
 # Add regular dependencies here.
 dependencies:
-  flutter:
-    sdk: flutter
+  # flutter:
+  #   sdk: flutter
   test: any
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^3.0.0
+  # flutter_test:
+  #   sdk: flutter
+  # flutter_lints: ^3.0.0
   coverage: ^1.9.0
   mockito: ^5.0.0
   build_runner: ^2.1.5
